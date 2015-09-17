@@ -36,17 +36,17 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLabel" name="result">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>156</x>
+     <x>30</x>
      <y>300</y>
-     <width>111</width>
-     <height>20</height>
+     <width>101</width>
+     <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string/>
+    <string>Ходить первым</string>
    </property>
   </widget>
  </widget>
