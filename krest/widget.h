@@ -10,6 +10,7 @@
 #include <QMouseEvent>
 #include <QtAlgorithms>
 #include <time.h>
+#include <QProcess>
 
 namespace Ui {
 class Widget;
@@ -25,7 +26,12 @@ public:
     void mousePressEvent(QMouseEvent *e);
     bool check();
 
+private slots:
+
+    void on_pushButton_clicked();
+
 private:
+    QProcess process;
     Ui::Widget *ui;
     QGraphicsScene *scene;
     int mas[9];
